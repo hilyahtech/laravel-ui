@@ -1,0 +1,33 @@
+{
+    "name": "hilyahtech/laravel-ui",
+    "description": "Cara mudah untuk kebutuhan frontend di Laravel UI",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Febri Hidayan",
+            "email": "febrihidayan20@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3||^7.4",
+        "laravel/framework": "^7.0",
+        "laravel/ui": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hilyahtech\\Ui\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hilyahtech\\Ui\\HilyahUiServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
